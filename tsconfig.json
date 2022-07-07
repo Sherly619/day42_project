@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "ES2015",
+    "target": "ESNEXT",
+    "outDir": "es",
+    "declaration": true,
+    "typeRoots": [
+      "@types"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "pages": [
+        "src/pages"
+      ]
+    }
+  },
+  "exclude": [
+    "es/*"
+  ]
+}
