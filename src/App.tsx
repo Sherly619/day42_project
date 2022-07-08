@@ -1,7 +1,10 @@
-import * as React from 'react';
+import * as React from 'react'
+import { Button } from 'antd'
 
-export default function App() {
+export default function App () {
   return (
-    <div>Hello World!</div>
-  );
+    <div>
+      <Button>Click</Button>
+    </div>
+  )
 }

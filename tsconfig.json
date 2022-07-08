@@ -2,17 +2,18 @@
   "compilerOptions": {
     "jsx": "react",
     "module": "ES2015",
+    "moduleResolution": "Node",
     "target": "ESNEXT",
+    "noImplicitAny": true,
     "outDir": "es",
     "declaration": true,
-    "typeRoots": [
-      "@types"
-    ],
+    // "typeRoots": ["node_modules/@types"],
     "baseUrl": "./",
     "paths": {
-      "pages": [
-        "src/pages"
-      ]
+      "pages": ["src/pages"],
+      "assets": ["src/assets"],
+      "components": ["src/compnents"],
+      "utils": ["src/utils"]
     }
   },
   "exclude": [
